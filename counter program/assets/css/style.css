@@ -1,0 +1,35 @@
+/* color-scheme */
+:root {
+  --white: #fff;
+  --light-blue: #add8e6;
+  --dodger-blue: #1e90ff;
+  --midnight-blue: #191970;
+}
+
+/* label styling */
+#countLabel {
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btnContainer {
+  text-align: center;
+}
+
+/* button styling */
+.btn {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  color: var(--white);
+  background-color: var(--light-blue);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+.btn:hover {
+  background-color: var(--midnight-blue);
+}
+

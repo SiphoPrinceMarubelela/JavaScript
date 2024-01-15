@@ -9,6 +9,6 @@ body {
   border-radius: 10px;
 }
 
-#myLabel {
+.lbl {
   font-size: 3em;
 }
